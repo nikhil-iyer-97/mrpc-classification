@@ -21,7 +21,7 @@ To test the model:
         flask run
 	curl --header "Content-Type: application/json" \
   	--request POST \
-  	--data '{"input1":${SENTENCE1}, "input2":${SENTENCE2}' \
+  	--data '{"input1":${SENTENCE1}, "input2":${SENTENCE2}}' \
   	http://localhost:5000
 	```
 
