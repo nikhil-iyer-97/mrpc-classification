@@ -1,0 +1,9 @@
+{
+    "model_type" : "bert",
+    "ckpt_dir" : "models/final_model_ckpts/",
+    "max_seq_length" : 128,
+    "task_name" : "mrpc",
+    "device" : -1,
+    "local_rank" : -1,
+    "no_cuda": 0
+}
